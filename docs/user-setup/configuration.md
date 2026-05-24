@@ -1,0 +1,40 @@
+# Configuration for server admins
+
+PacketEventsSK has a few configuration options to change how it functions. These options can be set in the `./plugins/PacketEventsSK/config.yml` file.
+
+## Default `config.yml` file
+
+The default `config.yml` is shown below:
+
+::: details **config.yml**
+```yaml
+# Welcome to PacketEventsSK v1.1.4
+
+# If you have any questions, please first refer to the wiki:
+# - https://github.com/3add/PacketEventsSK/wiki
+
+# Enable this to automatically check for updates
+update-checker:
+  # If the update checker should be enabled at all
+  enabled: true
+
+  # If the update checker should run asynchronously or on the main thread
+  async: false
+
+# This config section contains all configurable syntax elements
+# that PacketEventsSK contains.
+elements:
+  # General Elements cannot be turned on/off,
+  # they contain events, packet builder and other basic features
+
+  # Simple Elements are defined by being "hard coded" by me,
+  # they contain stuff like, setting the skin of a player or setting a glow state.
+  # these elements will always be hard to code in manually through general elements
+  # and thus this simplicity has been provided to you.
+  simple: true
+
+  # Entity Elements are defined by using the EntityLib dependency,
+  # they contain all "fake" entity building features
+  entity: true
+```
+:::
