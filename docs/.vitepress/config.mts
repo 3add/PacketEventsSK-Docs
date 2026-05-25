@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "PacketEventsSK Docs",
+  title: "PacketEventsSK",
   description: "The docs for the PacketEventsSK Skript addon",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,13 +22,16 @@ export default defineConfig({
       {
         text: 'Development',
         items: [
-          { text: 'Prerequisites', link: '/dev/prerequisites' }
+          { text: 'Prerequisites', link: '/dev/prerequisites' },
+          { text: 'Packet Listening', link: '/dev/packet-listening' },
+          { text: 'Common Pitfalls', link: '/dev/common-pitfalls' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/3add/packeteventssk' }
+      { icon: 'github', link: 'https://github.com/3add/packeteventssk' },
+      { icon: 'discord', link: 'https://discord.gg/CzQ863nxDB' }
     ]
   }
 })
