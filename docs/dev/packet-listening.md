@@ -71,7 +71,8 @@ on any packet:
 
 ## Listening to a Packet Type
 
-In PacketEventsSK packet types are defined by 2 parts, the direction (`serverbound` or `clientbound`) and the packet name (e.g. `entity metadata`).
+In PacketEventsSK packet types are defined by 2 parts, the direction (`serverbound` or `clientbound`) and the packet name (e.g. `entity metadata`). 
+You can find a list of all packet types on SkDocs [Packet Type](https://skdocs.org/docs?id=PacketEventsSK-packettype)
 
 Here's an example:
 
