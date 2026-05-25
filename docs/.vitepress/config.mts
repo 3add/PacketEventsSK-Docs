@@ -24,7 +24,16 @@ export default defineConfig({
         items: [
           { text: 'Prerequisites', link: '/dev/prerequisites' },
           { text: 'Packet Listening', link: '/dev/packet-listening' },
-          { text: 'Common Pitfalls', link: '/dev/common-pitfalls' }
+          { text: 'Fake Entities', link: '/dev/fake-entities' }
+        ]
+      },
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Debug Screen', link: '/examples/debug-screen'},
+          { text: 'Mod Detection', link: '/examples/mod-detection' },
+          { text: 'Scrollable GUI', link: '/examples/scrollable-gui' },
+          { text: 'Welcome Display', link: '/examples/welcome-display' }
         ]
       }
     ],
