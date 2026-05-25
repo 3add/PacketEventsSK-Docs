@@ -69,10 +69,6 @@ on any packet:
     # ... code ...
 ```
 
-### Async Processing
-
-This processing type should be used for heavy computation after
-
 ## Listening to a Packet Type
 
 In PacketEventsSK packet types are defined by 2 parts, the direction (`serverbound` or `clientbound`) and the packet name (e.g. `entity metadata`).
