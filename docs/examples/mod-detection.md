@@ -1,4 +1,4 @@
-## Mod Detection using sign epxloit
+# Mod Detection using sign epxloit
 Based on PacketEventsSK v1.1.3 with SkBee v3.23.0 on Paper v26.1.2
 
 This example makes use of a sign exploit described in [MC-265322](https://bugs.mojang.com/browse/MC/issues/MC-265322) and on [wurst wiki](https://wurst.wiki/sign_translation_vulnerability). It can be used to see which mods are or aren't installed on a connected player. (and is thus very powerful for anti cheating purposes)

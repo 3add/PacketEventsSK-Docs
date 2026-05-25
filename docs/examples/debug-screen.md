@@ -1,4 +1,4 @@
-## Reduced Debug Toggle
+# Reduced Debug Toggle
 Based on PacketEventsSK v1.1.4 with SkBee v3.23.0 on Paper v26.1.2
 
 This examples can be used to hide things such as coordinates from players' f3 menus. It's a rather simple example.

@@ -1,4 +1,4 @@
-## Welcome Display
+# Welcome Display
 Based on PacketEventsSK v1.1.3 with SkBee v3.23.0 on Paper v26.1.2
 ```applescript
 on join:

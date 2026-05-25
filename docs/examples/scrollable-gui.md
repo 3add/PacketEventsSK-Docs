@@ -1,4 +1,4 @@
-## Scrollable GUI
+# Scrollable GUI
 Based on PacketEventsSK v1.1.3 with SkBee v3.23.0 on Paper v26.1.2
 
 This example makes use of another unintended feature of the minecraft protocol that allows for a scrollable GUI (where the content scrolls with you)
