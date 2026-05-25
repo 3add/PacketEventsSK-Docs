@@ -1,6 +1,6 @@
 # Packet Listening
 
-To listen to packets with PacketEventsSK you can use a single syntax elements: [On Packet](https://skdocs.org/docs?id=PacketEventsSK-general_-_on_packet).
+To listen to packets with PacketEventsSK you can use a single syntax element: [On Packet](https://skdocs.org/docs?id=PacketEventsSK-general_-_on_packet).
 Let's break it down.
 
 ## Packet Processing
