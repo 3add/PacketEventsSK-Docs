@@ -24,6 +24,7 @@ export default defineConfig({
         items: [
           { text: 'Prerequisites', link: '/dev/prerequisites' },
           { text: 'Packet Listening', link: '/dev/packet-listening' },
+          { text: 'Packet Creation', link: '/dev/packet-creation' },
           { text: 'Fake Entities', link: '/dev/fake-entities' }
         ]
       },

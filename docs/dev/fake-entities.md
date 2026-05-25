@@ -16,22 +16,25 @@ In order to create an entity of a certain type, look up the type you want to cre
 [Entity Type List](https://skdocs.org/docs?id=Skript-entitydata). 
 To fully control the entity you often also have to create their metadata. 
 
-Here's an example:
+After that you'll have to create the meta and fake entity like this
 ```applescript
 on load:
     # Since meta can re-used, it is suggested you cache it like this,
     # especially if you are creating a lot of entities with the same properties.
-    set {-meta} to a new text display entity meta:
-        display text: "test"
+    set {-meta} to a new [entity type] entity meta:
+        [field 1]: [value 1]
+        [field 2]: [value 2]
+        ...
         
 command test:
     trigger:
-        set {_entity} to a new fake text display entity:
+        set {_entity} to a new fake [entity type] entity:
             viewers: players
             location: location of player
             meta: {-meta}
-
-        broadcast "Created fake entity with id %fake entity id of {_entity}%"
+            [field 4]: [value 4]
+            [field 5]: [value 5]
+            ...
 ```
 
 ## Managing Fake Entities
