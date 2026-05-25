@@ -81,3 +81,20 @@ on clientbound entity metadata packet:
     # event-packet and event-player are retrievable
     # ... code ...
 ```
+
+## Listening Priority
+
+There are 2 priorities when it comes to the `on packet` event: the bukkit event priority and the packet processing priority.
+- The bukkit event priority is the same as the one used in normal bukkit events and can be set with the `with priority` syntax element.
+- The PacketEvents priority is a separate priority that controls the listener priority within PacketEvents and can be set using the `with packet priority` syntax element.
+
+Both have 6 levels: `monitor`, `lowest`, `low`, `normal`, `high` and `highest`.
+
+The priority for events is from the perspective of who should have the last say on the result, so `lowest` gets called first then all the way to `highest` and then `monitor` goes last.
+
+```applescript
+on any packet with packet priority monitor:
+    # This will be the last listener to receive the packet 
+    # and will only view the contents of the packet,
+    # you won't be able to modify under a "monitor" packet priority
+```
