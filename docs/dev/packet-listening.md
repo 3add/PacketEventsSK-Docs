@@ -53,9 +53,6 @@ This processing type should be used for heavy computation with the data of a pac
 
 ```applescript
 on clientbound entity velocity async processed:
-    set {_id} to packet entity id of event-packet
-    # this is not thread safe, thus sync processed
-    set {_entity} to entity with id {_id}
     # ... heavy computation ...
 ```
 > [!DANGER]  
